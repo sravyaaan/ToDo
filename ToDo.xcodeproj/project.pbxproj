@@ -11,6 +11,8 @@
 		3BD995082A38C1C800FA1622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD995072A38C1C800FA1622 /* ContentView.swift */; };
 		3BD9950A2A38C1CE00FA1622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD995092A38C1CE00FA1622 /* Assets.xcassets */; };
 		3BD9950D2A38C1CE00FA1622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9950C2A38C1CE00FA1622 /* Preview Assets.xcassets */; };
+		3BD995142A38C22000FA1622 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD995132A38C22000FA1622 /* ToDoItem.swift */; };
+		3BD995162A38C67300FA1622 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD995152A38C67300FA1622 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3BD995072A38C1C800FA1622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BD995092A38C1CE00FA1622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD9950C2A38C1CE00FA1622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BD995132A38C22000FA1622 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		3BD995152A38C67300FA1622 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3BD995052A38C1C700FA1622 /* ToDoApp.swift */,
 				3BD995072A38C1C800FA1622 /* ContentView.swift */,
+				3BD995152A38C67300FA1622 /* NewToDoView.swift */,
+				3BD995132A38C22000FA1622 /* ToDoItem.swift */,
 				3BD995092A38C1CE00FA1622 /* Assets.xcassets */,
 				3BD9950B2A38C1CE00FA1622 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				3BD995082A38C1C800FA1622 /* ContentView.swift in Sources */,
 				3BD995062A38C1C700FA1622 /* ToDoApp.swift in Sources */,
+				3BD995142A38C22000FA1622 /* ToDoItem.swift in Sources */,
+				3BD995162A38C67300FA1622 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
